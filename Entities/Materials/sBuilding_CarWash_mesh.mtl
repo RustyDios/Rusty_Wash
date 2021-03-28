@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Materials>
+	
+<Material>
+		
+<BaseColorMap Name="16696001.dds" mc="0"/>
+		
+<RMMap Name="16696005.dds" mc="0"/>
+		
+<NormalMap Name="16696003.dds" mc="0"/>
+		
+<AmbientOcclusionMap Name="16696000.dds" mc="0"/>
+		
+<SIMap Name="16696002.dds" mc="1"/>
+		
+<ColorizationMap Name="16696004.dds" mc="0"/>
+		
+<DustMap Name="16696006.dds" mc="1"/>
+		
+<Property Opacity="100"/>
+		
+<Property ViewDependentOpacity="0"/>
+		
+<Property Wind="0"/>
+		
+<Property CastShadow="1"/>
+		
+<Property AlphaTest="0"/>
+		
+<Property TwoSidedShading="0"/>
+		
+<Property UOffset="0.000000"/>
+		
+<Property VOffset="0.000000"/>
+		
+<Property USize="1.000000"/>
+		
+<Property VSize="1.000000"/>
+		
+<Property DepthWrite="1"/>
+		
+<Property Distortion="0"/>
+		
+<Property DepthSmooth="0"/>
+		
+<Property StretchFactor1="1.654301"/>
+		
+<Property StretchFactor2="1.654301"/>
+		
+<Property AnimationFramesX="0"/>
+		
+<Property AnimationFramesY="0"/>
+		
+<Property AnimationTime="0"/>
+		
+<Property TerrainDistortedMesh="0"/>
+		
+<Property TransparentDecal="0"/>
+		
+<Property Deposition="0"/>
+		
+<Property ZClip="0"/>
+		
+<Property Colors="4"/>
+		
+<Property Special="None"/>
+		
+<Property AlphaBlend="None"/>
+	
+</Material>
+	
+
+<Material>
+		
+<BaseColorMap Name="16696007.dds" mc="0"/>
+		
+<RMMap Name="16696010.dds" mc="0"/>
+		
+<NormalMap Name="16696009.dds" mc="0"/>
+		
+<SIMap Name="16696008.dds" mc="1"/>
+		
+<DustMap Name="16696011.dds" mc="1"/>
+		
+<Property Opacity="39"/>
+		
+<Property ViewDependentOpacity="0"/>
+		
+<Property Wind="0"/>
+		
+<Property CastShadow="1"/>
+		
+<Property AlphaTest="0"/>
+		
+<Property TwoSidedShading="0"/>
+		
+<Property UOffset="0.000000"/>
+		
+<Property VOffset="0.000000"/>
+		
+<Property USize="1.000000"/>
+		
+<Property VSize="1.000000"/>
+		
+<Property DepthWrite="0"/>
+		
+<Property Distortion="0"/>
+		
+<Property DepthSmooth="0"/>
+		
+<Property StretchFactor1="0.673776"/>
+		
+<Property StretchFactor2="0.673776"/>
+		
+<Property AnimationFramesX="1"/>
+		
+<Property AnimationFramesY="1"/>
+		
+<Property AnimationTime="0"/>
+		
+<Property TerrainDistortedMesh="0"/>
+		
+<Property TransparentDecal="1"/>
+		
+<Property Deposition="0"/>
+		
+<Property ZClip="0"/>
+		
+<Property Special="None"/>
+		
+<Property AlphaBlend="Glass"/>
+	
+</Material>
+</Materials>

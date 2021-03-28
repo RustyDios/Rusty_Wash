@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity path="">
+
+<state id="idle">
+<mesh_ref ref="mesh"/>
+</state>
+<mesh_description id="mesh">
+<src file=""/>
+		
+<mesh file="sBuilding_CarWash_mesh.m.hgm"/>
+
+<material file="sBuilding_CarWash_mesh.mtl"/>
+
+<bsphere value="0,676,216,1625"/>
+
+<box min="-1308,-685,-96" max="1308,2037,528"/>
+
+
+<attach name="Autoattach" spot_note="att,Logo,show" spot_pos="-1087,577,262" spot_rot="0.000000,-0.207912,0.000000,24.0000"/>
+
+<attach name="Autoattach" spot_note="att,Logo,show" spot_pos="1087,577,262" spot_rot="0.207912,-0.000000,0.978148,180.0000"/>
+<attach name="Autoattach" spot_note="att,InvisibleObject" spot_pos="
+0,574,-10"/>
+<attach name="Autoattach" spot_note="att,FarmSprinkler,show" spot_pos="7,578,-200"/>
+
+<attach name="Autoattach" spot_note="att,RangeNonActive_01,show" spot_pos="1000,-1732,15" spot_rot="0.0,0.0,0.000001,90.0"/>
+<attach name="Autoattach" spot_note="att,RangeNonActive_02,show" spot_pos="-1000,-1732,15" spot_rot="0.0,0.0,0.000001,90.0"/>
+
+<attach name="Autottach" spot_note="att,LampInt_02,show" spot_pos="-710,577,0"/>
+<attach name="Autottach" spot_note="att,LampInt_02,show" spot_pos="-502,75,0"/>
+<attach name="Autottach" spot_note="att,LampInt_02,show" spot_pos="-502,1080,0"/>
+
+<attach name="Autottach" spot_note="att,LampInt_02,show" spot_pos="0,-133,0"/>
+
+<attach name="Autottach" spot_note="att,LampInt_02,show" spot_pos="502,75,0"/>
+<attach name="Autottach" spot_note="att,LampInt_02,show" spot_pos="710,577,0"/>
+
+<attach name="Autottach" spot_note="att,LampInt_02,show" spot_pos="0,1285,0"/>
+<attach name="Autottach" spot_note="att,LampInt_02,show" spot_pos="502,1080,0"/>
+
+<attach name="Construction" spot_pos="0,-866,0"/>
+
+<attach name="L" spot_note="cool,srad:5,rad:35,int:7,imp" spot_pos="-710,577,0"/>
+
+<attach name="L" spot_note="cool,srad:5,rad:35,int:7,imp" spot_pos="-502,75,0"/>
+<attach name="L" spot_note="cool,srad:5,rad:35,int:7,imp" spot_pos="-502,1080,0"/>
+<attach name="L" spot_note="cool,srad:5,rad:35,int:7,imp" spot_pos="0,-133,0"/>
+<attach name="L" spot_note="cool,srad:5,rad:35,int:7,imp" spot_pos="502,75,0"/>
+<attach name="L" spot_note="cool,srad:5,rad:35,int:7,imp" spot_pos="710,577,0"/>
+<attach name="L" spot_note="cool,srad:5,rad:35,int:7,imp" spot_pos="0,1288,0"/>
+<attach name="L" spot_note="cool,srad:5,rad:35,int:7,imp" spot_pos="502,1080,0"/>
+
+
+<attach name="Lifesupportgrid" spot_pos="-2000,1732,0"/>
+<attach name="Lifesupportgrid" spot_pos="-1500,2598,0"/>
+
+<attach name="Lifesupportgrid" spot_pos="2000,1732,0"/>
+
+<attach name="Lifesupportgrid" spot_pos="1500,2598,0"/>
+
+<attach name="Top" spot_pos="0,576,800"/>
+
+
+<attach name="Tube" spot_pos="-1000,1732,0"/>
+
+<attach name="Tube" spot_pos="-1000,1732,0" spot_rot="-0.000000,0.000000,-0.500000,60.0000"/>
+
+<attach name="Tube" spot_pos="1000,1732,0" spot_rot="0.000000,0.000000,1.000000,180.0000"/>
+<attach name="Tube" spot_pos="1000,1732,0" spot_rot="0.000000,0.000000,0.866025,240.0000"/>
+<attach name="Tubedecor" spot_pos="-1000,1732,62"/>
+
+<attach name="Tubedecor" spot_pos="1000,1732,62"/>
+
+<attach name="Workdrone" spot_pos="-500,-866,0"/>
+
+<attach name="Workdrone" spot_pos="-1500,866,0"/>
+
+<attach name="Workdrone" spot_pos="500,-866,0"/>
+<attach name="Workdrone" spot_pos="1500,866,0"/>
+
+
+<attach name="Workshuttle" spot_pos="0,-1735,15"/>
+
+<surf type="collision" points="-573,699,100;-464,-727,100;-1214,-182,100"/>
+
+<surf type="collision" points="-573,699,100;464,-727,100;-464,-727,100"/>
+
+<surf type="collision" points="-1214,-182,100;-1500,699,100;-573,699,100"/>
+
+<surf type="collision" points="-1214,1581,100;-573,699,100;-1500,699,100"/>
+<surf type="collision" points="-573,699,100;-1214,1581,100;-464,2126,100"/>
+<surf type="collision" points="-573,699,100;-464,2126,100;464,2126,100"/>
+<surf type="collision" points="573,699,100;1214,-182,100;464,-727,100"/>
+
+<surf type="collision" points="464,-727,100;-573,699,100;573,699,100"/>
+
+<surf type="collision" points="-573,699,100;464,2126,100;573,699,100"/>
+<surf type="collision" points="1214,-182,100;573,699,100;1500,699,100"/>
+
+<surf type="collision" points="573,699,100;1214,1581,100;1500,699,100"/>
+<surf type="collision" points="573,699,100;464,2126,100;1214,1581,100"/>
+
+
+<surf type="hex_shape" points="-1014, -18, 0;998, -1722, 0;-1013, -1730, 0"/>
+<surf type="hex_shape" points="-975, 1775, 0;998, -1722, 0;-1014, -18, 0"/>
+<surf type="hex_shape" points="998, -1722, 0;-975, 1775, 0;1007, -56, 0"/>
+<surf type="hex_shape" points="1007, -56, 0;-975, 1775, 0;1005, 1790, 0"/>
+
+<surf type="selection" points="-500,-1443,0;0,866,0;0,-1443,0"/>
+
+<surf type="selection" points="0,866,0;-500,-1443,0;-2000,866,0"/>
+
+<surf type="selection" points="-2000,866,0;-1000,2309,0;0,866,0"/>
+<surf type="selection" points="-1000,2309,0;0,2309,0;0,866,0"/>
+<surf type="selection" points="0,-1443,0;0,866,0;500,-1443,0"/>
+<surf type="selection" points="2000,866,0;500,-1443,0;0,866,0"/>
+
+<surf type="selection" points="0,866,0;1000,2309,0;2000,866,0"/>
+
+<surf type="selection" points="1000,2309,0;0,866,0;0,2309,0"/>
+
+
+<surf_hash type="collision" value="108264699"/>
+<surf_hash type="hex_shape" value="3630201178"/>
+<surf_hash type="selection" value="4088050757"/>
+
+</mesh_description>
+</entity>
